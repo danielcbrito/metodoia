@@ -1,0 +1,212 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="title" content="Captura - ClickMax">
+  <meta name="description" content="Captura - ClickMax">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metodo IA </title>
+  <link rel="canonical" href="/">
+  <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'none'"> -->
+
+  <!-- Favicon Meta Tags -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thiagofinch.com.br/clickmax">
+  <meta property="og:title" content="Captura - ClickMax">
+  <meta property="og:description" content="Captura - ClickMax">
+  <meta property="og:image" content="./share-og.png">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://thiagofinch.com.br/clickmax">
+  <meta property="twitter:title" content="Captura - ClickMax">
+  <meta property="twitter:description" content="Captura - ClickMax">
+  <meta property="twitter:image" content="./share-og.png">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+	<? if($hasWebFonts) { ?>
+	<!-- GOOGLE FONTS PRELOADER -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<? } ?>
+
+	<? if($hasPandaVideo) { ?>
+	<!-- PANDA VIDEO PRELOADER -->
+	<link rel="preload" href="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/css/styles.css" as="style">
+	<link rel="prerender" href="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/?v=0a05b15b-a227-4ca7-955f-6f68b87044a6">
+	<link rel="preload" href="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/js/hls.js" as="script">
+	<link rel="preload" href="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/js/plyr.polyfilled.min.js" as="script">
+	<link rel="preload" href="https://config.tv.pandavideo.com.br/vz-2cdebb25-226/0a05b15b-a227-4ca7-955f-6f68b87044a6.json" as="fetch">
+	<link rel="preload" href="https://config.tv.pandavideo.com.br/vz-2cdebb25-226/config.json" as="fetch">
+	<link rel="preload" href="https://b-vz-2cdebb25-226.tv.pandavideo.com.br/0a05b15b-a227-4ca7-955f-6f68b87044a6/playlist.m3u8" as="fetch">
+	<link rel="dns-prefetch" href="https://b-vz-2cdebb25-226.tv.pandavideo.com.br">
+	<link rel="dns-prefetch" href="https://player-vz-2cdebb25-226.tv.pandavideo.com.br">
+	<link rel="dns-prefetch" href="https://vz-2cdebb25-226.b-cdn.net">
+	<? } ?>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&IBM+Plex+Sans100...700:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- DEFAULT STYLES -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./intlTelInput.css">
+
+	<? if(isset($gtmID)) { ?>
+	<!-- GOOGLE TAG MANAGER -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WPFPKPX8');</script>
+	<? } ?>
+</head>
+<body>
+  <? if(isset($gtmID)) { ?>
+  <!-- GOOGLE TAG MANAGER -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPFPKPX8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <? } ?>
+
+  <!-- DEFAULT HTML CONTENT -->
+  <main class="main">
+		<section class="s-hero">
+			<button class="s-hero__buttonPlay" id="js-modal" data-modal="video">
+				<img src="img/icon-play.svg" alt="ícone Player Video">
+			</button>
+			<div class="s-hero__video">
+				<video autoplay loop playsinline muted>
+					<source src="./assets/videos/video_intro.mp4" type="video/mp4" />
+				</video>
+			</div>
+			<div class="s-hero__blur left"></div>
+			<div class="s-hero__blur right"></div>
+      <div class="container">
+        <div class="s-hero__content">
+					<span class="s-hero__badge">
+					
+                        
+					</span>
+          <img src="img/Inserir utelaplyam título (4).png" alt="Imagem Logo" class="s-hero__logo">
+          <h1 class="s-hero__title">
+         Você está a um clique de maximizar seu lucro e economizar até R$ 20 mil por ano. <span></span>
+          </h1>
+					<h2 class="s-hero__subtitle">
+						Sua empresa com atendimento 24h. A IA atende seus clientes com áudio, foto e mensagem, gera vendas e reduz custos. E nós cuidamos de toda a estrutura da sua marca
+					</h2>
+					<h3 class="s-hero__text">
+						Marque uma reunião e conheça nosso projeto para sua empresa.
+
+
+
+					</h3>
+					<img src="img/icon-arrow-bottom.svg" alt="Ícone Ilustrativo Seta para baixo" class="s-hero__icon">
+			<form id="form-whatsapp" onsubmit="sendToWhatsApp(); return false;" class="c-form">
+    <input type="text" id="name" placeholder="Digite seu nome" required class="c-form__input">
+    <input type="email" id="email" placeholder="Qual seu melhor email" required class="c-form__input">
+    <input type="tel" id="phone" placeholder="Seu Whatsapp com DDD*" maxlength="14" required class="c-form__input">
+
+    <button type="submit" class="c-form__button">
+        CONFIRMAR MEU CADASTRO
+    </button>
+</form>
+
+<script>
+function sendToWhatsApp() {
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+
+    const message = `Olá! Me chamo *${name}*.\nMeu email é *${email}* e meu WhatsApp é *${phone}*.\nGostaria de mais informações!`;
+
+    const whatsappNumber = '5511952160719'; // Substitua por seu número, exemplo: 5511999999999
+
+    const url = `https://api.whatsapp.com/send/?phone=5511982573707&text&type=phone_number&app_absent=0`;
+
+    window.open(url, '_blank');
+}
+</script>
+
+      </div>
+      </div>
+    </section>
+	</main>
+	<footer class="footer">
+    <div class="footer__border"></div>
+    <div class="container">
+			<img src="img/Inserir utelaplyam título (4).png" alt="Imagem Logo" class="footer__logo">
+			<div class="footer__content">
+				<h2 class="footer__title">
+					Conversões ao máximo.<br />Facilidade ao máximo.<br />Lucro ao máximo.
+				</h2>
+				<span class="footer__text">
+					Tenha um atendimento 24 horas para seus clientes com uma Inteligência Artificial que trabalha pra sua empresa. Ela responde com áudio, foto e mensagem, aumenta sua conversão e reduz custos — enquanto a gente cuida de toda a estrutura da sua marca.
+				</span>
+			</div>
+			<div class="footer__content">
+				<span class="footer__help">
+					Precisa de ajuda?
+				</span>
+				<span class="footer__help__text">
+					Entre em contato com nosso time pelo WhatsApp
+				</span>
+				<button></button>
+			</div>
+		</div>
+    <div class="container-bottom">
+      <p>
+        
+    </div>
+  </footer>
+	<div class="c-modal" aria-modal="true" role="dialog" id="video">
+		<div class="c-modal__overlay"></div>
+		<button class="c-modal__close" id="js-close-modal">
+			<img src="img/icon-close.svg" alt="Ícone Close" class="cmodal__close__icon">
+		</button>
+		<div class="c-modal__content">
+			<div class="c-modal__video">
+				<iframe class="desktop" id="panda-" src="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/?v=0eb1f8d9-2f10-4da9-8989-f024292fc090" style="border:none;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="100%" height="100%" fetchpriority="high"></iframe>
+				<iframe class="mobile" id="panda-" src="https://player-vz-2cdebb25-226.tv.pandavideo.com.br/embed/?v=38e06bd1-94ad-4ba8-aefc-7a8dc64a05d6" style="border:none;position:absolute;top:0;left:0;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="100%" height="100%" fetchpriority="high"></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="c-modal" aria-modal="true" role="dialog" id="thanks">
+		<div class="c-modal__overlay black"></div>
+		<button class="c-modal__close" id="js-close-modal">
+			<img src="img/icon-close.svg" alt="Ícone Close" class="cmodal__close__icon">
+		</button>
+		<div class="c-modal__content middle">
+			<div class="c-modal__thanks">
+				<img src="./assets/icons/icon-check-thanks.svg" alt="Ícone Ilustrativo Check" class="c-modal__thanks__icon">
+				<span class="c-modal__thanks__text">
+					Seu cadastro na lista de espera foi confirmado com sucesso
+				</span>
+			</div>
+		</div>
+	</div>
+  <!-- DEFAULT HTML CONTENT -->
+
+  <!-- DEFAULT SCRIPTS -->
+  <? if($hasPandaVideo) { ?><script> const pandaVideoID = ''; </script><? } ?>
+	<script src="./js/libs/intlTelInput.min.js"></script>
+  <script src="./js/pages/index.js"></script>
+</body>
+</html>
